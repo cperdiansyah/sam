@@ -1,5 +1,14 @@
 .footer {
-  background-color: #1e40af;
+  /* background-color: #1e40af; */
+
+  background: rgb(30, 58, 138);
+  background: linear-gradient(
+    0deg,
+    rgba(30, 58, 138, 1) 0%,
+    rgba(29, 78, 216, 1) 70%,
+    rgba(59, 130, 246, 1) 100%
+  );
+
   color: #fff;
 }
 
@@ -8,11 +17,13 @@
 }
 
 .footer-bottom {
-  background-color: #1e3a8a;
-  padding: 20px 0px;
+  padding-bottom: 50px;
   text-align: center;
-  font-size: 14px;
   position: relative;
   z-index: 10;
+  font-size: 1.125rem;
 }
 
+.footer-nav-link {
+  font-size: 1.125rem;
+}

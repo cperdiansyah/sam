@@ -1,0 +1,35 @@
+.hero-section {
+  padding-top: 7rem;
+  padding-bottom: 15rem;
+  max-height: 100vh;
+}
+
+.hero-section-image {
+  margin-right: -3rem;
+}
+
+.title {
+  font-weight: bold;
+  color: #334155;
+}
+
+.description {
+  padding-top: 10px;
+  color: #334155;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.button-hero {
+  background-color: #3b82f6;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.button-hero:hover {
+  background-color: #2563eb;
+}
+.button-hero:active {
+  background-color: #60a5fa;
+}

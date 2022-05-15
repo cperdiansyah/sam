@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Brand from '../Brand';
+import styles from './Header.module.css';
 
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
@@ -10,7 +11,7 @@ const navList = [
   },
   {
     title: 'About Us',
-    href: '#',
+    href: '/about',
   },
   {
     title: 'Product',
@@ -28,7 +29,7 @@ const navList = [
 
 const index = () => {
   return (
-    <header className={`bg-white`}>
+    <header className={`bg-white ${styles.header}`}>
       <Navbar bg='white' expand='lg'>
         <Container>
           <Link href='/'>
@@ -38,7 +39,7 @@ const index = () => {
                 src='/static/images/sam-logo-blue.png'
                 alt='Sentra Awan Maxima Logo'
                 width='150'
-                height='100'
+                height='50'
               />
             </div>
           </Link>
@@ -47,7 +48,9 @@ const index = () => {
             <Nav className='ms-auto'>
               {navList.map((item, index) => (
                 <Link href={item.href} key={index}>
-                  <a className='nav-link'>{item.title}</a>
+                  <a className={`nav-link ${styles['nav-link']}`}>
+                    {item.title}
+                  </a>
                 </Link>
               ))}
             </Nav>
