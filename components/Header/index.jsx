@@ -21,7 +21,7 @@ const navList = [
     href: '#',
   },
   {
-    title: 'Contact Us',
+    title: 'Contact',
     href: '#',
   },
 ];
@@ -47,7 +47,7 @@ const index = () => {
             <Nav className='ms-auto'>
               {navList.map((item, index) => (
                 <Link href={item.href} key={index}>
-                  <span className='nav-link'>{item.title}</span>
+                  <a className='nav-link'>{item.title}</a>
                 </Link>
               ))}
             </Nav>
