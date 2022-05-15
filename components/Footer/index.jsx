@@ -48,17 +48,21 @@ const index = () => {
                   <ul className='list-unstyled'>
                     <li>
                       <Link href='/data-center-&-cloud'>
-                        <a>Data Center & Cloud</a>
+                        <a className={styles['footer-nav-link']}>
+                          Data Center & Cloud
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link href='/big-data'>
-                        <a>Big Data</a>
+                        <a className={styles['footer-nav-link']}>Big Data</a>
                       </Link>
                     </li>
                     <li>
                       <Link href='/iot'>
-                        <a>Interet of Things</a>
+                        <a className={styles['footer-nav-link']}>
+                          Interet of Things
+                        </a>
                       </Link>
                     </li>
                   </ul>
@@ -72,17 +76,19 @@ const index = () => {
                   <ul className='list-unstyled footer-nav-list'>
                     <li className='footer-nav-item'>
                       <Link href='/about'>
-                        <a>About Us</a>
+                        <a className={styles['footer-nav-link']}>About Us</a>
                       </Link>
                     </li>
                     <li className='footer-nav-item'>
                       <Link href='/news'>
-                        <a>News & Event</a>
+                        <a className={styles['footer-nav-link']}>
+                          News & Event
+                        </a>
                       </Link>
                     </li>
                     <li className='footer-nav-item'>
                       <Link href='/contact'>
-                        <a>Contact</a>
+                        <a className={styles['footer-nav-link']}>Contact</a>
                       </Link>
                     </li>
                   </ul>
@@ -96,7 +102,7 @@ const index = () => {
                   <ul className='list-unstyled footer-nav-list'>
                     <li className='footer-nav-item'>
                       <Link href='#'>
-                        <a>
+                        <a className={styles['footer-nav-link']}>
                           <i className='bi bi-facebook me-3' />
                           Facebook
                         </a>
@@ -105,7 +111,7 @@ const index = () => {
 
                     <li className='footer-nav-item'>
                       <Link href='#'>
-                        <a>
+                        <a className={styles['footer-nav-link']}>
                           <i className='bi bi-linkedin me-3' />
                           Linkedin
                         </a>
@@ -114,7 +120,7 @@ const index = () => {
 
                     <li className='footer-nav-item'>
                       <Link href='#'>
-                        <a>
+                        <a className={styles['footer-nav-link']}>
                           <i className='bi bi-instagram me-3' />
                           Instagram
                         </a>

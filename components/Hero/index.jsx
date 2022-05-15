@@ -28,7 +28,7 @@ const index = () => {
                 <div className='hero-section-buttons'>
                   <Link href='/about'>
                     <a className={`btn text-white  ${styles['button-hero']}`}>
-                      Read More
+                      Learn More
                     </a>
                   </Link>
                 </div>
@@ -48,6 +48,7 @@ const index = () => {
                       layout='responsive'
                       objectFit='contain'
                       className={styles['hero-section-image']}
+                      priority
                     />
                   </div>
                 </div>
