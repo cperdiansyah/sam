@@ -1,8 +1,10 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import Link from 'next/link';
 import Brand from '../Brand';
 import styles from './Header.module.css';
 
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
 
 const navList = [
   {
@@ -28,9 +30,45 @@ const navList = [
 ];
 
 const index = () => {
+  const [clientWindowHeight, setClientWindowHeight] = useState('');
+
+  const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
+  const [padding, setPadding] = useState(20);
+  const [boxShadow, setBoxShadow] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  });
+
+  const handleScroll = () => {
+    setClientWindowHeight(window.scrollY);
+  };
+
+  useEffect(() => {
+    let backgroundTransparacyVar = clientWindowHeight / 170;
+
+    if (backgroundTransparacyVar < 1) {
+      let paddingVar = 30 - backgroundTransparacyVar * 20;
+      let boxShadowVar = backgroundTransparacyVar * 0.1;
+      setBackgroundTransparacy(backgroundTransparacyVar);
+      setPadding(paddingVar);
+      setBoxShadow(boxShadowVar);
+    } else {
+      setBackgroundTransparacy(1);
+    }
+  }, [clientWindowHeight]);
+
   return (
-    <header className={`bg-white ${styles.header}`}>
-      <Navbar bg='white' expand='lg'>
+    <header
+      className={` ${styles.header}`}
+      style={{
+        background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
+        padding: `${padding}px 0px`,
+        boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px  4px  10px -1px`,
+      }}
+    >
+      <Navbar expand='lg'>
         <Container>
           <Link href='/'>
             <div className='navbar-brand'>

@@ -1,15 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Container } from 'react-bootstrap';
 
 import styles from './hero.module.css';
-import Image from 'next/image';
 
 const index = () => {
-  return (
+    return (
     <section className={`hero-section ${styles['hero-section']}`}>
-      <div className='hero-section-wrapper'>
+      <div className='hero-section-wrapper position-relative'>
+        <span className={`gredient ${styles['gradient']} `}></span>
         <Container>
           <div className='hero-section-content'>
             <div className='row align-items-center'>
