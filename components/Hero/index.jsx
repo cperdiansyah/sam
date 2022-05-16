@@ -21,7 +21,7 @@ const index = () => {
                   Next Generation Cloud Solution
                 </h1>
                 <p className={`hero-section-text ${styles.description}`}>
-                  PT. Sentra Awan Maxima offers 'One Stop Solution' services in
+                  PT Sentra Awan Maxima offers "One Stop Solution" services in
                   the field of Information technology such as Cloud, BigData,
                   and IoT (Internet of Things) solutions
                 </p>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Brand from '../Brand';
-import styles from './footer.module.css';
+import styles from './Footer.module.css';
 
 const index = () => {
   return (
@@ -44,7 +44,11 @@ const index = () => {
               {/* Products */}
               <div className='col-lg-4 col-md-4'>
                 <div className='footer-widget'>
-                  <h4 className='widget-title'>Products</h4>
+                  <h4
+                    className={`widget-title fw-semibold ${styles['widget-title']}`}
+                  >
+                    Products
+                  </h4>
                   <ul className='list-unstyled'>
                     <li>
                       <Link href='/data-center-&-cloud'>
@@ -72,7 +76,11 @@ const index = () => {
               {/* Explore */}
               <div className='col-lg-4 col-md-4'>
                 <div className='footer-widget'>
-                  <h4 className='widget-title'>Explore</h4>
+                  <h4
+                    className={`widget-title fw-semibold ${styles['widget-title']}`}
+                  >
+                    Explore
+                  </h4>
                   <ul className='list-unstyled footer-nav-list'>
                     <li className='footer-nav-item'>
                       <Link href='/about'>
@@ -98,7 +106,11 @@ const index = () => {
               {/* Social */}
               <div className='col-lg-4 col-md-4'>
                 <div className='footer-widget'>
-                  <h4 className='widget-title'>Follow Us</h4>
+                  <h4
+                    className={`widget-title fw-semibold ${styles['widget-title']}`}
+                  >
+                    Follow Us
+                  </h4>
                   <ul className='list-unstyled footer-nav-list'>
                     <li className='footer-nav-item'>
                       <Link href='#'>
