@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
-import Hero from '../components/Hero';
-import Costumers from '../components/Costumers';
+import Hero from '../components/Home/Hero';
+import Costumers from '../components/Home/Costumers';
 
 export default function Home() {
   const data = [

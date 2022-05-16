@@ -48,4 +48,5 @@
   top: -6rem;
   left: -20% !important;
   position: absolute;
+  z-index: -10;
 }
