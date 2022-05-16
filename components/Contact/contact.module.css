@@ -1,0 +1,50 @@
+.form-page {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+.form-section-wrapper {
+  padding-top: 3rem;
+}
+
+.title-form {
+  color: #334155;
+}
+
+.subtitle-form {
+  color: #64748b;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+}
+
+.contact-information-card {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 25px -4px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.contact-information-card-content {
+  padding: 3rem;
+}
+
+.contact-maps-card-content {
+  width: 100%;
+  height: 100%;
+}
+
+.border-title {
+  border-bottom: 5px solid #3b82f6;
+  padding-bottom: 0.5rem;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}

@@ -25,7 +25,7 @@ const navList = [
   },
   {
     title: 'Contact',
-    href: '#',
+    href: '/contact',
   },
 ];
 
