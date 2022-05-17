@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '../Header';
 import Footer from '../Footer';
 
+import styles from './layout.module.css';
+
 const index = ({ children, pageTitle }) => {
   return (
     <>
@@ -10,7 +12,9 @@ const index = ({ children, pageTitle }) => {
         <link rel='icon' type='image/x-icon' href='/static/favicon.ico' />
       </Head>
       <Header />
-      {children}
+      <div className={`children-content ${styles['padding-layout']}`}>
+        {children}
+      </div>
       <Footer />
     </>
   );

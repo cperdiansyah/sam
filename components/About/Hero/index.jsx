@@ -17,25 +17,25 @@ const index = () => {
                   src='/static/images/5-Reasons-Why-Cloud-Can-Transform-Your-Business-1.jpg'
                   alt='About Us'
                   width={400}
-                  height={250}
+                  height={300}
                   className={styles['about-us-image']}
                   layout='responsive'
                 />
               </div>
               <div className='col-12 col-lg-6 ps-4'>
-                <h3 className={styles['section-title']}>About Us</h3>
+                <h3 className={styles['section-title']}>About Our Company</h3>
                 <p className={styles['section-description']}>
                   PT Sentra Awan Maxima is one of the leading information
-                  technology service providers by providing g business solutions
+                  technology service providers by providing business solutions
                   to consumers, companies and stakeholders with a strong focus
                   on Information Technology in Indonesia.
                 </p>
 
-                <Link href='/about'>
-                  <a className='text-decoration-underline text-primary'>
-                    Learn More
-                  </a>
-                </Link>
+                <p className={styles['section-description']}>
+                  We offers 'One Stop Solution' services in the field of
+                  Information technology such as Cloud, BigData, and IoT
+                  (Internet of Things) solutions
+                </p>
               </div>
             </div>
           </div>

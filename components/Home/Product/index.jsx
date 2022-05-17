@@ -27,7 +27,9 @@ const index = ({ productData }) => {
           {description}
         </p>
         <Link href={href}>
-          <a className=' btn btn-primary text-white shadow'>Read More</a>
+          <a className={`btn text-white  ${styles['btn-product']}`}>
+            Learn More
+          </a>
         </Link>
       </div>
     </div>

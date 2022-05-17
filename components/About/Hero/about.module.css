@@ -1,7 +1,8 @@
 .about-section {
   /*  margin-top: 7rem;
   margin-bottom: 3rem; */
-  margin: 5rem 0;
+  margin: 4rem 0;
+  margin-bottom: 6rem;
 }
 
 .section-title {
@@ -13,14 +14,13 @@
 .section-description {
   padding-top: 10px;
   color: #475569;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 2;
 }
 
 .about-us-image {
-  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
-    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) !important;
   border-radius: 10px;
-  object-fit: conta;
-  width: fit-content;
+  object-fit: cover;
+  width: 100%;
 }
