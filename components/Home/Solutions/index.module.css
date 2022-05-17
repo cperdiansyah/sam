@@ -1,5 +1,7 @@
 .solutions-section {
-  margin: 7rem 0;
+  /* margin: 7rem 0; */
+  margin-top: 7rem;
+  margin-bottom: 3rem;
 }
 .home-services .section-title {
   line-height: 1.2;

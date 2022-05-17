@@ -1,0 +1,16 @@
+.image-list-section {
+  padding: 3rem 0;
+  background-color: #f1f5f9;
+}
+
+.image-list-section img {
+  /* filter: grayscale(100%); */
+  /* opacity: 0.8; */
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
+    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+.title-color {
+  color: #334155;
+  margin-bottom: 2.5rem;
+}
