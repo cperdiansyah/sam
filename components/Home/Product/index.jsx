@@ -7,7 +7,7 @@ import styles from './product.module.css';
 const index = ({ productData }) => {
   const { href, imgSrc, imgTitle, imgHeight, imgWidth, title, description } =
     productData;
-  // console.log(productData);
+
   return (
     <div className={`services-content col-12 ${styles['content-item']}`}>
       <div className='item d-block text-center'>
@@ -27,7 +27,7 @@ const index = ({ productData }) => {
           {description}
         </p>
         <Link href={href}>
-          <a className='text-decoration-underline text-primary'>Read More</a>
+          <a className=' btn btn-primary text-white shadow'>Read More</a>
         </Link>
       </div>
     </div>

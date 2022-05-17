@@ -27,9 +27,9 @@ const index = () => {
                   and IoT (Internet of Things) solutions
                 </p>
                 <div className='hero-section-buttons'>
-                  <Link href='/about'>
+                  <Link href='/contact'>
                     <a className={`btn text-white  ${styles['button-hero']}`}>
-                      Learn More
+                      Get Started
                     </a>
                   </Link>
                 </div>

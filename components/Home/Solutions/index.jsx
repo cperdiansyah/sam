@@ -7,7 +7,7 @@ import Product from '../Product';
 
 const productData = [
   {
-    href: '/products/data-center-&-cloud',
+    href: '/products/#',
     imgSrc: `/static/images/data-center.jpeg`,
     imgTitle: 'Data Center & Cloud',
     imgHeight: 170,
@@ -17,7 +17,7 @@ const productData = [
       'Server, Storage, Network, Firewall Security, Data Backup & Recovery, Data Center Building & DRC, CCTV & Access Door',
   },
   {
-    href: '/products/big-data',
+    href: '/products/#',
     imgSrc: `/static/images/big-data.jpg`,
     imgTitle: 'Big Data on Cloud',
     imgHeight: 170,
@@ -27,7 +27,7 @@ const productData = [
       'Realtime data processing, Dashboard, Business Intelligent, Data Analytic, Data Forensic.',
   },
   {
-    href: '/products/iot',
+    href: '/products/#',
     imgSrc: `/static/images/abstract-iot-1000x600.jpg`,
     imgTitle: 'Internet of Things',
     imgHeight: 170,
@@ -55,7 +55,6 @@ const index = () => {
           </div>
 
           {/* content left */}
-
           <div className='col-12 col-lg-5 offset-lg-1 col-xl-6 offset-xl-0 '>
             <div className={`row ${styles['solutions-left']}`}>
               <Product productData={productData[1]} />
