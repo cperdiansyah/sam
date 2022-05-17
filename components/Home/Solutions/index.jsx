@@ -10,7 +10,7 @@ const productData = [
     href: '/products/data-center-&-cloud',
     imgSrc: `/static/images/data-center.jpeg`,
     imgTitle: 'Data Center & Cloud',
-    imgHeight: 150,
+    imgHeight: 170,
     imgWidth: 300,
     title: 'Data Center & Cloud',
     description:
@@ -20,7 +20,7 @@ const productData = [
     href: '/products/big-data',
     imgSrc: `/static/images/big-data.jpg`,
     imgTitle: 'Big Data on Cloud',
-    imgHeight: 150,
+    imgHeight: 170,
     imgWidth: 300,
     title: 'Big Data on Cloud',
     description:
@@ -30,7 +30,7 @@ const productData = [
     href: '/products/iot',
     imgSrc: `/static/images/abstract-iot-1000x600.jpg`,
     imgTitle: 'Internet of Things',
-    imgHeight: 150,
+    imgHeight: 170,
     imgWidth: 300,
     title: 'Internet of Things',
     description:
