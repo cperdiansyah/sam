@@ -2,6 +2,72 @@ import Link from 'next/link';
 import Brand from '../Brand';
 import styles from './Footer.module.css';
 
+const footerData = [
+  {
+    titleSection: 'Products',
+    links: [
+      {
+        title: 'Data Center & Cloud',
+        href: '/products/#',
+        icon: false,
+      },
+      {
+        title: 'Big Data on Cloud',
+        href: '/products/#',
+        icon: false,
+      },
+      {
+        title: 'Internet of Things',
+        href: '/products/#',
+        icon: false,
+      },
+    ],
+  },
+  {
+    titleSection: 'Explore',
+    links: [
+      {
+        title: 'About Us',
+        href: '/about',
+        icon: false,
+      },
+      {
+        title: 'News & Event',
+        href: '/#',
+        icon: false,
+      },
+      {
+        title: 'Contact',
+        href: '/contact',
+        icon: false,
+      },
+    ],
+  },
+  {
+    titleSection: 'Follow Us',
+    links: [
+      {
+        title: 'Facebook',
+        href: '/#',
+        icon: true,
+        iconEmblem: 'bi bi-facebook',
+      },
+      {
+        title: 'Linkedin',
+        href: '/#',
+        icon: true,
+        iconEmblem: 'bi bi-linkedin',
+      },
+      {
+        title: 'Instagram',
+        href: '/#',
+        icon: true,
+        iconEmblem: 'bi bi-instagram',
+      },
+    ],
+  },
+];
+
 const index = () => {
   return (
     <footer className={styles['footer']}>
@@ -41,107 +107,37 @@ const index = () => {
 
             {/* Footer Right */}
             <div className='col row'>
-              {/* Products */}
-              <div className='col-lg-4 col-md-4'>
-                <div className='footer-widget'>
-                  <h4
-                    className={`widget-title fw-semibold ${styles['widget-title']}`}
-                  >
-                    Products
-                  </h4>
-                  <ul className='list-unstyled'>
-                    <li>
-                      <Link href='/products/data-center-&-cloud'>
-                        <a className={styles['footer-nav-link']}>
-                          Data Center & Cloud
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/products/big-data'>
-                        <a className={styles['footer-nav-link']}>Big Data</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/products/iot'>
-                        <a className={styles['footer-nav-link']}>
-                          Internet of Things
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
+              {footerData.map((item, index) => (
+                <div className='col-lg-4 col-md-4' key={index}>
+                  <div className='footer-widget'>
+                    <h4
+                      className={`widget-title fw-semibold ${styles['widget-title']}`}
+                    >
+                      {item.titleSection}
+                    </h4>
+                    <ul className='list-unstyled'>
+                      {item.links.map((link, index) => (
+                        <li key={index}>
+                          <Link href={link.href}>
+                            {link.icon ? (
+                              <a className={styles['footer-nav-link']}>
+                                <i
+                                  className={`me-3 ${link.iconEmblem} ${styles['footer-nav-icon']}`}
+                                />
+                                {link.title}
+                              </a>
+                            ) : (
+                              <a className={styles['footer-nav-link']}>
+                                {link.title}
+                              </a>
+                            )}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-
-              {/* Explore */}
-              <div className='col-lg-4 col-md-4'>
-                <div className='footer-widget'>
-                  <h4
-                    className={`widget-title fw-semibold ${styles['widget-title']}`}
-                  >
-                    Explore
-                  </h4>
-                  <ul className='list-unstyled footer-nav-list'>
-                    <li className='footer-nav-item'>
-                      <Link href='/about'>
-                        <a className={styles['footer-nav-link']}>About Us</a>
-                      </Link>
-                    </li>
-                    <li className='footer-nav-item'>
-                      <Link href='/news'>
-                        <a className={styles['footer-nav-link']}>
-                          News & Event
-                        </a>
-                      </Link>
-                    </li>
-                    <li className='footer-nav-item'>
-                      <Link href='/contact'>
-                        <a className={styles['footer-nav-link']}>Contact</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Social */}
-              <div className='col-lg-4 col-md-4'>
-                <div className='footer-widget'>
-                  <h4
-                    className={`widget-title fw-semibold ${styles['widget-title']}`}
-                  >
-                    Follow Us
-                  </h4>
-                  <ul className='list-unstyled footer-nav-list'>
-                    <li className='footer-nav-item'>
-                      <Link href='#'>
-                        <a className={styles['footer-nav-link']}>
-                          <i className='bi bi-facebook me-3' />
-                          Facebook
-                        </a>
-                      </Link>
-                    </li>
-
-                    <li className='footer-nav-item'>
-                      <Link href='#'>
-                        <a className={styles['footer-nav-link']}>
-                          <i className='bi bi-linkedin me-3' />
-                          Linkedin
-                        </a>
-                      </Link>
-                    </li>
-
-                    <li className='footer-nav-item'>
-                      <Link href='#'>
-                        <a className={styles['footer-nav-link']}>
-                          <i className='bi bi-instagram me-3' />
-                          Instagram
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              
+              ))}
             </div>
           </div>
         </div>

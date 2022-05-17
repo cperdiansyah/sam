@@ -1,0 +1,19 @@
+.section {
+  /*  margin-top: 7rem;
+  margin-bottom: 3rem; */
+  margin: 4rem 0;
+  margin-bottom: 6rem;
+}
+
+.section-title {
+  color: #334155;
+  /* margin-bottom: 2.5rem; */
+  font-size: 2.5rem;
+}
+
+.section-description {
+  padding-top: 10px;
+  color: #475569;
+  font-size: 1.2rem;
+  line-height: 2;
+}
