@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap';
 import styles from './hero.module.css';
 
 const index = () => {
-    return (
+  return (
     <section className={`hero-section ${styles['hero-section']}`}>
       <div className='hero-section-wrapper position-relative'>
         <span className={`gredient ${styles['gradient']} `}></span>
@@ -50,6 +50,7 @@ const index = () => {
                       objectFit='contain'
                       className={styles['hero-section-image']}
                       priority
+                      sizes='50vw'
                     />
                   </div>
                 </div>

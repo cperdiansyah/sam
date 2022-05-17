@@ -1,0 +1,15 @@
+.content-item {
+  margin-bottom: 3.75rem;
+}
+
+.content-item .content-title {
+  font-size: 1.5rem;
+  /* font-weight: 700; */
+  margin-bottom: 1.25rem;
+  color: #334155;
+  margin-top: 1.25rem;
+}
+
+.content-description {
+  color: #475569;
+}

@@ -29,10 +29,10 @@ const productData = [
   {
     href: '/products/iot',
     imgSrc: `/static/images/abstract-iot-1000x600.jpg`,
-    imgTitle: 'Interet of Things',
+    imgTitle: 'Internet of Things',
     imgHeight: 150,
     imgWidth: 300,
-    title: 'Interet of Things',
+    title: 'Internet of Things',
     description:
       'LiDAR (Light Detection and Ranging), Drone Inspection, kerLink LoRaWan, Smart Meter Solution, sensor, automation',
   },
@@ -56,21 +56,15 @@ const index = () => {
 
           {/* content left */}
 
-          <div
-            className='col-12 col-lg-5 offset-lg-1 col-xl-6 offset-xl-0 mobile-target'
-            data-mobile-target='home-services'
-          >
-            <div className='row'>
+          <div className='col-12 col-lg-5 offset-lg-1 col-xl-6 offset-xl-0 '>
+            <div className={`row ${styles['solutions-left']}`}>
               <Product productData={productData[1]} />
             </div>
           </div>
 
           {/* Content right */}
-          <div
-            className='col-12 col-lg-5 col-xl-6 mobile-resource'
-            data-mobile-resource='home-services'
-          >
-            <div className='row'>
+          <div className='col-12 col-lg-5 col-xl-6 '>
+            <div className={`row ${styles['solutions-right']}`}>
               <Product productData={productData[0]} />
               <Product productData={productData[2]} />
             </div>

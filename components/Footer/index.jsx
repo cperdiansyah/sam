@@ -65,7 +65,7 @@ const index = () => {
                     <li>
                       <Link href='/products/iot'>
                         <a className={styles['footer-nav-link']}>
-                          Interet of Things
+                          Internet of Things
                         </a>
                       </Link>
                     </li>
@@ -141,6 +141,7 @@ const index = () => {
                   </ul>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

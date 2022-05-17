@@ -19,6 +19,7 @@ const index = (props) => {
               height={item.height}
               layout='responsive'
               objectFit='contain'
+              sizes='50vw'
             />
           </div>
         ))}

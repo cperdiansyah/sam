@@ -17,6 +17,7 @@ export default function index(props) {
           {...size}
           objectFit='contain'
           className={`w-full ${styles.brand}`}
+          sizes='50vw'
         />
       </a>
     </Link>
