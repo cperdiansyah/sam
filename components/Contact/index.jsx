@@ -17,7 +17,9 @@ function index() {
           <div className='form-section-content'>
             <div className={styles['contact-information-card']}>
               <div className='form-wraper p-5'>
-                <h2 className={`text-center fw-semibold ${styles['border-title']}`}>
+                <h2
+                  className={`text-center fw-semibold ${styles['border-title']}`}
+                >
                   Send Us Email
                 </h2>
                 <Form />
@@ -31,7 +33,7 @@ function index() {
                 <div className='col-md-6 col-12'>
                   <div className={styles['contact-information-card-content']}>
                     <h3 className={`fw-semibold mb-3 ${styles['title-form']}`}>
-                      Alamat
+                      Address
                     </h3>
                     <p className={styles['contact-text']}>
                       Mangkuluhur City, 18th Floor.

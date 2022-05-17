@@ -1,0 +1,17 @@
+.solutions-section {
+  margin: 7rem 0;
+}
+.home-services .section-title {
+  line-height: 1.2;
+  margin-bottom: 80px;
+}
+.section-title {
+  /* font-size: 56px; */
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+  position: relative;
+  z-index: 10;
+  color: #334155;
+}

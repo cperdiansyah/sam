@@ -51,19 +51,19 @@ const index = () => {
                   </h4>
                   <ul className='list-unstyled'>
                     <li>
-                      <Link href='/data-center-&-cloud'>
+                      <Link href='/products/data-center-&-cloud'>
                         <a className={styles['footer-nav-link']}>
                           Data Center & Cloud
                         </a>
                       </Link>
                     </li>
                     <li>
-                      <Link href='/big-data'>
+                      <Link href='/products/big-data'>
                         <a className={styles['footer-nav-link']}>Big Data</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href='/iot'>
+                      <Link href='/products/iot'>
                         <a className={styles['footer-nav-link']}>
                           Interet of Things
                         </a>
