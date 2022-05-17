@@ -16,8 +16,8 @@ const navList = [
     href: '/about',
   },
   {
-    title: 'Product',
-    href: '#',
+    title: 'Products',
+    href: '/products',
   },
   {
     title: 'News & Event',

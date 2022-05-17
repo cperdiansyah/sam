@@ -15,6 +15,7 @@
   color: #475569;
   font-size: 1.1rem;
   line-height: 2;
+  padding-bottom: 1rem;
 }
 
 .about-us-image {
@@ -23,4 +24,12 @@
   border-radius: 10px;
   object-fit: conta;
   width: fit-content;
+}
+
+.btn-link {
+  background-color: #3b82f6;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
+  color: #fff;
 }

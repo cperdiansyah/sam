@@ -4,7 +4,7 @@ import Hero from '../components/About/Hero';
 import CostumerService from '../components/About/CostumerService';
 import VisionMission from '../components/About/VisionMission';
 
-export default function blog() {
+export default function about() {
   return (
     <Layout>
       <Hero />

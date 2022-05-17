@@ -18,8 +18,8 @@ const index = ({ productData }) => {
             height={imgHeight}
             width={imgWidth}
             layout='responsive'
-            objectFit='contain'
             sizes='50vw'
+            className={` ${styles['services-content__image']}`}
           />
         </div>
         <h3 className={`fw-bolder ${styles['content-title']}`}>{title}</h3>

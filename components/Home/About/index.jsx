@@ -32,8 +32,8 @@ const index = () => {
                 </p>
 
                 <Link href='/about'>
-                  <a className='text-decoration-underline text-primary'>
-                    Learn More
+                  <a className={` text-white ${styles['btn-link']}`}>
+                    Read More
                   </a>
                 </Link>
               </div>

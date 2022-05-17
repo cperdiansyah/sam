@@ -11,7 +11,7 @@ function index() {
           <div className='title-wrapper'>
             <h1 className={`fw-bolder ${styles['title-form']}`}>Contact Us</h1>
             <p className={styles['subtitle-form']}>
-              Layanan Pusat Informasi PT Sentra Awan Maxima
+              Information Center Services PT Sentra Awan Maxima
             </p>
           </div>
           <div className='form-section-content'>
@@ -20,7 +20,7 @@ function index() {
                 <h2
                   className={`text-center fw-semibold ${styles['border-title']}`}
                 >
-                  Send Us Email
+                  Send Us An Email
                 </h2>
                 <Form />
               </div>
