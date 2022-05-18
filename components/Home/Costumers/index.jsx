@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import ImageSection from '../../ImageSection';
-import styles from './costumers.module.css';
+import styles from './costumers.module.scss';
 
 const index = () => {
   const data = [
@@ -35,6 +35,9 @@ const index = () => {
     <section className={`image-list-section ${styles['image-list-section']}`}>
       <div className='image-list-wrapper'>
         <Container>
+          <h2 className={`text-center fw-bolder ${styles['title-color']}`}>
+            Our Customer
+          </h2>
           <ImageSection imageData={data} />
         </Container>
       </div>

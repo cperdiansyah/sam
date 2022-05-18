@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import ImageSection from '../../ImageSection';
-import styles from './partner.module.css';
+import styles from './partner.module.scss';
 
 const index = () => {
   const data = [
@@ -32,7 +32,9 @@ const index = () => {
     },
   ];
   return (
-    <section className={`partnership-image-list-section ${styles['image-list-section']}`}>
+    <section
+      className={`partnership-image-list-section ${styles['image-list-section']}`}
+    >
       <div className='image-list-wrapper'>
         <Container>
           <h2 className={`text-center fw-bolder ${styles['title-color']}`}>

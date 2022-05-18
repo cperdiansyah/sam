@@ -6,13 +6,13 @@
 .content-title {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: #334155;
   margin-top: 1rem;
 }
 
 .content-description {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   color: #475569;
   font-size: 1.1rem;
   line-height: 2;

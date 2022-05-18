@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import styles from './index.module.css';
+import styles from './index.module.scss';
 
 import Product from '../Product';
 

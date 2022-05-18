@@ -4,7 +4,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Container } from 'react-bootstrap';
 
-import styles from './hero.module.css';
+// import styles from './hero.module.css';
+import styles from './hero.module.scss';
 
 const index = () => {
   return (
@@ -15,7 +16,7 @@ const index = () => {
           <div className='hero-section-content'>
             <div className='row align-items-center'>
               {/* Content */}
-              <div className='col-5'>
+              <div className='col-md-5 col-12'>
                 <h1
                   className={`hero-section-title fw-semibold ${styles.title}`}
                 >
@@ -36,7 +37,7 @@ const index = () => {
               </div>
 
               {/* image */}
-              <div className='offset-1 col'>
+              <div className='offset-lg-1 col-md-6 col-12'>
                 <div className={styles['image-section']}>
                   <div
                     className={`hero-section-image ${styles['hero-section-image']}`}

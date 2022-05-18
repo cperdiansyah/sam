@@ -1,0 +1,33 @@
+.header {
+  padding: 5px 0;
+  /* box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); */
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.nav-link {
+  font-size: 1.15rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 10px 0;
+    /* box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); */
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+  .nav-link {
+    text-align: center;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(71, 85, 105, 0.125);
+  }
+
+  .nav-list {
+    margin-top: 1rem;
+  }
+  .navbar-brand {
+    margin: 0 auto;
+  }
+}

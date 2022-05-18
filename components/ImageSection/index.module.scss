@@ -1,0 +1,11 @@
+.image-section {
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-section-content {
+    margin-bottom: 2rem;
+    width: 90%;
+    //   height: 30px !important;
+  }
+}

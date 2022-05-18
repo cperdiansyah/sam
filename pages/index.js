@@ -10,10 +10,10 @@ export default function Home() {
     <>
       <Layout pageTitle={'Home'}>
         <Hero />
-        <Costumers />
         <Solutions />
         <Partner />
         <About />
+        <Costumers />
       </Layout>
     </>
   );
