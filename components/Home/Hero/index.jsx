@@ -18,7 +18,7 @@ const index = () => {
               {/* Content */}
               <div className='col-md-5 col-12'>
                 <h1
-                  className={`hero-section-title fw-semibold ${styles.title}`}
+                  className={`title hero-section-title fw-semibold ${styles.title}`}
                 >
                   Next Generation Cloud Solution
                 </h1>

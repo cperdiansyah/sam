@@ -37,7 +37,9 @@ const index = () => {
     >
       <div className='image-list-wrapper'>
         <Container>
-          <h2 className={`text-center fw-bolder ${styles['title-color']}`}>
+          <h2
+            className={`text-center title fw-bolder ${styles['title-color']}`}
+          >
             Our Partnership
           </h2>
           <ImageSection imageData={data} />

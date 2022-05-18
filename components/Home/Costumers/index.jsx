@@ -35,7 +35,9 @@ const index = () => {
     <section className={`image-list-section ${styles['image-list-section']}`}>
       <div className='image-list-wrapper'>
         <Container>
-          <h2 className={`text-center fw-bolder ${styles['title-color']}`}>
+          <h2
+            className={`text-center title fw-bolder ${styles['title-color']}`}
+          >
             Our Customer
           </h2>
           <ImageSection imageData={data} />

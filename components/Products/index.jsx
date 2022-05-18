@@ -39,7 +39,7 @@ const index = () => {
     <section className={styles['product-section']}>
       <div className='product-section-wrapper'>
         <Container>
-          <h2 className={`text-center ${styles['title-section']}`}>
+          <h2 className={`text-center title ${styles['title-section']}`}>
             Our Product
           </h2>
           <div className='product-section-wrapper'>

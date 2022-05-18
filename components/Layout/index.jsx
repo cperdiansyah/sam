@@ -20,6 +20,14 @@ const index = ({ children, pageTitle }) => {
       <Header />
       <div className={`children-content ${styles['padding-layout']}`}>
         {children}
+        <a
+          href='https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202.'
+          className={`float d-flex align-items-center justify-content-center ${styles['float']}`}
+          target='_blank'
+          rel='noreferrer'
+        >
+          <i className={`bi bi-whatsapp my-float ${styles['my-float']}`}></i>
+        </a>
       </div>
       <Footer />
     </>

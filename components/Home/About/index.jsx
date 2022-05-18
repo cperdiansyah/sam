@@ -23,7 +23,7 @@ const index = () => {
                 />
               </div>
               <div className='col-12 col-lg-6 ps-4'>
-                <h3 className={`fw-bolder ${styles['section-title']}`}>
+                <h3 className={`fw-bolder title ${styles['section-title']}`}>
                   About Us
                 </h3>
                 <p className={styles['section-description']}>

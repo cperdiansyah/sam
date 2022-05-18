@@ -22,3 +22,9 @@
   object-fit: cover;
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .costumer-service-section {
+    margin: 5rem 0;
+  }
+}

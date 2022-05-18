@@ -1,0 +1,43 @@
+.about-section {
+  margin: 4rem 0;
+  margin-bottom: 6rem;
+}
+
+.section-description {
+  padding-top: 10px;
+  color: #475569;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.about-us-image {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) !important;
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  .about-section {
+    margin: 2rem 0;
+    margin-bottom: 3rem;
+  }
+
+  .about-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .about-us-image {
+    padding-top: 3rem;
+  }
+
+  .about-paragraph {
+    margin-bottom: 1.5rem;
+  }
+}

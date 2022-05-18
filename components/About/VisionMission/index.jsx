@@ -8,7 +8,9 @@ const index = () => {
       <div className='vission-mission-wrapper'>
         <Container>
           <div className='vission-mission-desc'>
-            <h2 className={`text-center fw-bolder ${styles['section-title']}`}>
+            <h2
+              className={`text-center title fw-bolder ${styles['section-title']}`}
+            >
               We have a strong vission and mission
             </h2>
             <p className={`text-center ${styles['section-description']}`}>

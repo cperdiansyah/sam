@@ -1,7 +1,5 @@
 .hero-section {
-  /* padding-top: 7rem; */
   padding-bottom: 7rem;
-  /* max-height: 100vh; */
 }
 
 .hero-section-image {
@@ -53,7 +51,7 @@
 
 @media only screen and (max-width: 600px) {
   .hero-section {
-    padding-top: 2rem;
+    padding-top: 4rem;
     text-align: center;
     overflow-x: hidden;
   }

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container } from 'react-bootstrap';
-import styles from './index.module.css';
+import styles from './index.module.scss';
 
 const index = () => {
   return (

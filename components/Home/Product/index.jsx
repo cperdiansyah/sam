@@ -22,7 +22,9 @@ const index = ({ productData }) => {
             className={` ${styles['services-content__image']}`}
           />
         </div>
-        <h3 className={`fw-bolder ${styles['content-title']}`}>{title}</h3>
+        <h3 className={`fw-bolder title ${styles['content-title']}`}>
+          {title}
+        </h3>
         <p className={`${styles['content-description']} text-left`}>
           {description}
         </p>

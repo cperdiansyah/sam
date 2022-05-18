@@ -45,7 +45,7 @@ const index = () => {
         <div className='solutions-wrapper row'>
           {/* Title */}
           <div className='col-12 col-lg-10 offset-lg-1 col-xl-12 offset-xl-0'>
-            <h3 className={styles['section-title']}>
+            <h3 className={`title ${styles['section-title']}`}>
               We Offers{' '}
               <span className='d-block italic fst-italic'>
                 'One Stop Solution'{' '}
