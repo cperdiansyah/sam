@@ -1,0 +1,32 @@
+.product-components__image {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #334155;
+  margin-top: 1rem;
+}
+
+.content-description {
+  padding-top: 10px;
+  color: #475569;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.btn-product {
+  border: 1px solid #3b82f6;
+  color: #475569;
+  /* font-size: 1.2rem; */
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+
+  background-color: #3b82f6;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
+}
